@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "DINNextLTPro-Heavy";
+  src: url("/assets/fonts/DIN/DINNextLTPro-Heavy.otf") format("otf");
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.teaser {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/imgs/background-1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tous-les-jours {
+  text-transform: uppercase;
+  font-family: "DINNextLTPro-Heavy";
+  background-color: #31a5d6;
+  padding: 5px 10px;
+  font-size: 18px;
+  width: 430px;
+  margin-bottom: 5px;
+}
+
+.chance-de-gagner {
+  width: 430px;
+  text-transform: uppercase;
+  font-family: "DINNextLTPro-Heavy";
+  background-color: #f1e521;
+  padding: 5px 10px;
+  p {
+    text-align: center;
+    &:first-child {
+      font-size: 35px;
+    }
+    &:nth-child(2) {
+      font-size: 33px;
+    }
+    &:last-child {
+      font-size: 18px;
+    }
+  }
+}
+.tout-achat {
+  margin-top: 5px;
+  color: #f1e521;
+  font-size: 14px;
+}
+.je-joue {
+  margin-top: 50px;
+  background-color: #9e0b0f;
+  box-shadow: 3px -3px 0px 0px rgb(255, 255, 255);
+  text-transform: uppercase;
+  border: none;
+  font-size: 35px;
+  color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7.5px;
+    color: #d7d8da;
+    left: 30px;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  .liens {
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 27px;
+    a {
+      font-size: 8.5px;
+      color: #d7d8da;
+    }
+  }
+}
