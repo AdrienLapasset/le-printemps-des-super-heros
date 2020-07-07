@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "DINNextLTPro-Heavy";
+  src: url("/assets/fonts/DIN/DINNextLTPro-Heavy.otf") format("otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+p {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+@import "home";
+@import "form";

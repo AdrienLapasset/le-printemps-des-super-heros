@@ -1,0 +1,104 @@
+.formulaire {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/imgs/background-form.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #d7d8da;
+  }
+
+  form {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+
+    .form-block {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 10px 20px 20px;
+      @media (min-width: 576px) {
+        width: 570px;
+      }
+
+      div:not(.checkbox) {
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        flex: 0 0 100%;
+        flex-direction: column;
+        @media (min-width: 576px) {
+          flex: 0 0 50%;
+          flex-direction: row;
+        }
+        input {
+          margin: 5px 0;
+          padding: 5px;
+          color: white;
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid white;
+          width: 100%;
+          @media (min-width: 576px) {
+            width: 250px;
+          }
+          &.adresse {
+            width: 100%;
+          }
+        }
+        input[type="file"] {
+          opacity: 0;
+          cursor: pointer;
+        }
+        span {
+          padding: 5px;
+          position: absolute;
+          bottom: 13px;
+          border-bottom: 1px solid white;
+          width: 100%;
+          @media (min-width: 576px) {
+            width: 250px;
+          }
+        }
+      }
+      .checkbox {
+        display: flex;
+        position: relative;
+
+        label {
+          position: relative;
+          bottom: 3px;
+          left: 5px;
+          margin-bottom: 0;
+        }
+      }
+      p {
+        font-size: 9px;
+      }
+    }
+  }
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}

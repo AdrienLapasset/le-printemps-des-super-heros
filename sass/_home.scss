@@ -1,21 +1,7 @@
-@font-face {
-  font-family: "DINNextLTPro-Heavy";
-  src: url("/assets/fonts/DIN/DINNextLTPro-Heavy.otf") format("otf");
-}
-
-p {
-  margin: 0;
-}
-
-body {
-  width: 100%;
-  height: 100vh;
-}
-
 .teaser {
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/imgs/background-1.jpg");
+  background-image: url("/assets/imgs/background-home.jpg");
   background-position: center;
   background-size: cover;
   display: flex;

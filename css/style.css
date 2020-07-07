@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
 @font-face {
   font-family: "DINNextLTPro-Heavy";
   src: url("/assets/fonts/DIN/DINNextLTPro-Heavy.otf") format("otf");
@@ -15,7 +16,7 @@ body {
 .teaser {
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/imgs/background-1.jpg");
+  background-image: url("/assets/imgs/background-home.jpg");
   background-position: center;
   background-size: cover;
   display: -webkit-box;
@@ -113,5 +114,175 @@ footer .liens {
 footer .liens a {
   font-size: 8.5px;
   color: #d7d8da;
+}
+
+.formulaire {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/imgs/background-form.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formulaire h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #d7d8da;
+}
+
+.formulaire form {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+}
+
+.formulaire form .form-block {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px 20px;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block {
+    width: 570px;
+  }
+}
+
+.formulaire form .form-block div:not(.checkbox) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block div:not(.checkbox) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.formulaire form .form-block div:not(.checkbox) input {
+  margin: 5px 0;
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block div:not(.checkbox) input {
+    width: 250px;
+  }
+}
+
+.formulaire form .form-block div:not(.checkbox) input.adresse {
+  width: 100%;
+}
+
+.formulaire form .form-block div:not(.checkbox) input[type="file"] {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.formulaire form .form-block div:not(.checkbox) span {
+  padding: 5px;
+  position: absolute;
+  bottom: 13px;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block div:not(.checkbox) span {
+    width: 250px;
+  }
+}
+
+.formulaire form .form-block .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.formulaire form .form-block .checkbox label {
+  position: relative;
+  bottom: 3px;
+  left: 5px;
+  margin-bottom: 0;
+}
+
+.formulaire form .form-block p {
+  font-size: 9px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
