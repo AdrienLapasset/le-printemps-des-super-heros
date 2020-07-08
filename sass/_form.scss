@@ -43,7 +43,7 @@
           flex-direction: row;
         }
         input,
-        select {
+        .custom-select {
           margin: 5px 0;
           padding: 5px;
           color: white;
@@ -58,8 +58,9 @@
             width: 100%;
           }
         }
-        select {
-          padding-left: 2px;
+        .custom-select {
+          border-radius: 0;
+          font-size: 13px;
         }
         input[type="file"] {
           opacity: 0;

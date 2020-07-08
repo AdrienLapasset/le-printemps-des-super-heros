@@ -266,7 +266,7 @@ footer .liens a {
 }
 
 .formulaire form .form-block div:not(.checkbox) input,
-.formulaire form .form-block div:not(.checkbox) select {
+.formulaire form .form-block div:not(.checkbox) .custom-select {
   margin: 5px 0;
   padding: 5px;
   color: white;
@@ -278,18 +278,19 @@ footer .liens a {
 
 @media (min-width: 576px) {
   .formulaire form .form-block div:not(.checkbox) input,
-  .formulaire form .form-block div:not(.checkbox) select {
+  .formulaire form .form-block div:not(.checkbox) .custom-select {
     width: 250px;
   }
 }
 
 .formulaire form .form-block div:not(.checkbox) input.adresse,
-.formulaire form .form-block div:not(.checkbox) select.adresse {
+.formulaire form .form-block div:not(.checkbox) .custom-select.adresse {
   width: 100%;
 }
 
-.formulaire form .form-block div:not(.checkbox) select {
-  padding-left: 2px;
+.formulaire form .form-block div:not(.checkbox) .custom-select {
+  border-radius: 0;
+  font-size: 13px;
 }
 
 .formulaire form .form-block div:not(.checkbox) input[type="file"] {
