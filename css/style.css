@@ -1,7 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap");
 @font-face {
   font-family: "DINNextLTPro-Heavy";
   src: url("/assets/fonts/DIN/DINNextLTPro-Heavy.otf") format("otf");
+}
+
+@font-face {
+  font-family: "DIN-BOLD";
+  src: url("/assets/fonts/DIN/DIN-BOLD.otf") format("otf");
+}
+
+@font-face {
+  font-family: "din1451alt-G";
+  src: url("/assets/fonts/DIN/din1451alt G.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "din1451alt";
+  src: url("/assets/fonts/DIN/din1451alt.ttf") format("ttf");
 }
 
 p {
@@ -37,10 +53,10 @@ body {
 
 .tous-les-jours {
   text-transform: uppercase;
-  font-family: "DINNextLTPro-Heavy";
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
   background-color: #31a5d6;
-  padding: 5px 10px;
-  font-size: 18px;
+  font-size: 19px;
   width: 430px;
   margin-bottom: 5px;
 }
@@ -48,9 +64,10 @@ body {
 .chance-de-gagner {
   width: 430px;
   text-transform: uppercase;
-  font-family: "DINNextLTPro-Heavy";
+  font-family: "Barlow", sans-serif;
   background-color: #f1e521;
   padding: 5px 10px;
+  line-height: 34px;
 }
 
 .chance-de-gagner p {
@@ -59,37 +76,63 @@ body {
 
 .chance-de-gagner p:first-child {
   font-size: 35px;
+  font-weight: 700;
 }
 
 .chance-de-gagner p:nth-child(2) {
   font-size: 33px;
+  font-weight: 900;
 }
 
 .chance-de-gagner p:last-child {
   font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.chance-de-gagner p:last-child::before, .chance-de-gagner p:last-child:after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 80px;
+  background-color: black;
+  position: relative;
+  bottom: 5px;
+}
+
+.chance-de-gagner p:last-child::before {
+  margin-right: 7px;
+}
+
+.chance-de-gagner p:last-child::after {
+  margin-left: 7px;
 }
 
 .tout-achat {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
   margin-top: 5px;
   color: #f1e521;
-  font-size: 14px;
+  font-size: 14.5px;
 }
 
 .je-joue {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
   margin-top: 50px;
   background-color: #9e0b0f;
   -webkit-box-shadow: 3px -3px 0px 0px white;
           box-shadow: 3px -3px 0px 0px white;
   text-transform: uppercase;
   border: none;
-  font-size: 35px;
+  font-size: 37px;
   color: white;
   border-radius: 10px;
   padding: 0 10px;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -118,7 +161,7 @@ footer .liens a {
 
 .formulaire {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("/assets/imgs/background-form.jpg");
   background-position: center;
   background-size: cover;
@@ -138,10 +181,13 @@ footer .liens a {
 }
 
 .formulaire h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
   color: #d7d8da;
+  margin-bottom: 20px;
 }
 
 .formulaire form {
@@ -240,12 +286,17 @@ footer .liens a {
 .formulaire form .form-block .checkbox label {
   position: relative;
   bottom: 3px;
-  left: 5px;
+  left: 7px;
   margin-bottom: 0;
 }
 
 .formulaire form .form-block p {
   font-size: 9px;
+}
+
+.formulaire .je-joue {
+  font-size: 28px;
+  margin: 0 auto 100px;
 }
 
 ::-webkit-input-placeholder {

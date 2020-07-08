@@ -2,8 +2,21 @@
   font-family: "DINNextLTPro-Heavy";
   src: url("/assets/fonts/DIN/DINNextLTPro-Heavy.otf") format("otf");
 }
+@font-face {
+  font-family: "DIN-BOLD";
+  src: url("/assets/fonts/DIN/DIN-BOLD.otf") format("otf");
+}
+@font-face {
+  font-family: "din1451alt-G";
+  src: url("/assets/fonts/DIN/din1451alt G.ttf") format("ttf");
+}
+@font-face {
+  font-family: "din1451alt";
+  src: url("/assets/fonts/DIN/din1451alt.ttf") format("ttf");
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap");
 
 p {
   margin: 0;
