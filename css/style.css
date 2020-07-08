@@ -33,6 +33,11 @@ section {
   padding: 0 15px;
 }
 
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .teaser {
   width: 100%;
   height: 100vh;
@@ -260,7 +265,8 @@ footer .liens a {
   }
 }
 
-.formulaire form .form-block div:not(.checkbox) input {
+.formulaire form .form-block div:not(.checkbox) input,
+.formulaire form .form-block div:not(.checkbox) select {
   margin: 5px 0;
   padding: 5px;
   color: white;
@@ -271,13 +277,19 @@ footer .liens a {
 }
 
 @media (min-width: 576px) {
-  .formulaire form .form-block div:not(.checkbox) input {
+  .formulaire form .form-block div:not(.checkbox) input,
+  .formulaire form .form-block div:not(.checkbox) select {
     width: 250px;
   }
 }
 
-.formulaire form .form-block div:not(.checkbox) input.adresse {
+.formulaire form .form-block div:not(.checkbox) input.adresse,
+.formulaire form .form-block div:not(.checkbox) select.adresse {
   width: 100%;
+}
+
+.formulaire form .form-block div:not(.checkbox) select {
+  padding-left: 2px;
 }
 
 .formulaire form .form-block div:not(.checkbox) input[type="file"] {
@@ -416,14 +428,14 @@ footer .liens a {
 
 .text-block h1 {
   font-weight: 400;
-  font-size: 11px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
 .text-block p {
   text-align: left;
   font-weight: 300;
-  font-size: 8.5px;
+  font-size: 12px;
   text-align: justify;
   margin-bottom: 10px;
 }

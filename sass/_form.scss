@@ -42,7 +42,8 @@
           flex: 0 0 50%;
           flex-direction: row;
         }
-        input {
+        input,
+        select {
           margin: 5px 0;
           padding: 5px;
           color: white;
@@ -56,6 +57,9 @@
           &.adresse {
             width: 100%;
           }
+        }
+        select {
+          padding-left: 2px;
         }
         input[type="file"] {
           opacity: 0;
