@@ -384,4 +384,48 @@ footer .liens a {
   margin-top: 30px;
   font-size: 28px;
 }
+
+.text-block {
+  background-color: black;
+  color: white;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  max-width: 600px;
+  max-height: 360px;
+  overflow-y: scroll;
+}
+
+.text-block h1 {
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.text-block p {
+  text-align: left;
+  font-weight: 300;
+  font-size: 8.5px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 /*# sourceMappingURL=style.css.map */
