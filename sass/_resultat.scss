@@ -1,0 +1,34 @@
+.resultat {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/assets/imgs/background-resultat.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #d7d8da;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    color: #d7d8da;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .je-joue {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+}
