@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -17,17 +17,25 @@
   font-weight: 900;
   background-color: #31a5d6;
   font-size: 19px;
-  width: 430px;
   margin-bottom: 5px;
+  padding: 0 10px;
+  @media (min-width: 576px) {
+    width: 430px;
+    padding: 0;
+  }
 }
 
 .chance-de-gagner {
-  width: 430px;
   text-transform: uppercase;
   font-family: "Barlow", sans-serif;
   background-color: #f1e521;
   padding: 5px 10px;
   line-height: 34px;
+  padding: 0 10px;
+  @media (min-width: 576px) {
+    width: 430px;
+    padding: 0;
+  }
 
   p {
     text-align: center;
@@ -42,16 +50,18 @@
     &:last-child {
       font-size: 18px;
       font-weight: 400;
-      line-height: 24px;
+      line-height: 28px;
       &::before,
       &:after {
         content: "";
-        display: inline-block;
         height: 1px;
         width: 80px;
         background-color: black;
         position: relative;
         bottom: 5px;
+        @media (min-width: 576px) {
+          display: inline-block;
+        }
       }
       &::before {
         margin-right: 7px;

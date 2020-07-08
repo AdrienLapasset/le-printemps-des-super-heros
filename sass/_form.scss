@@ -74,12 +74,9 @@
       }
       .checkbox {
         display: flex;
-        position: relative;
-
+        align-items: center;
         label {
-          position: relative;
-          bottom: 3px;
-          left: 7px;
+          margin-left: 7px;
           margin-bottom: 0;
         }
       }
