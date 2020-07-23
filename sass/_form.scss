@@ -9,6 +9,12 @@
   align-items: center;
   flex-direction: column;
 
+  .formulaire-container {
+    @media (min-width: 576px) {
+      margin-top: 150px;
+    }
+  }
+
   h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 700;
