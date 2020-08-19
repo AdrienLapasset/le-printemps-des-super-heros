@@ -439,20 +439,26 @@ footer .liens a {
   max-width: 600px;
   max-height: 360px;
   overflow-y: scroll;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: justify;
 }
 
 .text-block h1 {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.text-block h2 {
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .text-block p {
-  text-align: left;
-  font-weight: 300;
-  font-size: 12px;
-  text-align: justify;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* width */
