@@ -12,12 +12,15 @@ h6 {
   padding: 0;
 }
 
+html {
+  background-color: black;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: black;
-  font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 li {
@@ -32,27 +35,7 @@ a:hover {
   color: black;
 }
 
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100vw;
-  min-height: 100vh;
-}
-
-footer {
-  margin-top: auto;
-}
-
-.teaser {
-  overflow: hidden;
+.jouez-avec {
   background-image: url("../assets/imgs/fond-jouez-avec.jpg");
   background-size: cover;
   background-position: center;
@@ -73,7 +56,7 @@ footer {
   min-height: calc(100vh);
 }
 
-.teaser h1 {
+.jouez-avec h1 {
   text-transform: uppercase;
   color: #adadad;
   font-size: 26px;
@@ -107,5 +90,33 @@ footer {
 
 .rendez-vous .icons > img {
   margin: 0 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7.5px;
+  color: white;
+  left: 30px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+footer .liens {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  text-transform: uppercase;
+  min-height: 27px;
+}
+
+footer .liens a {
+  font-size: 8.5px;
+  color: #d7d8da;
 }
 /*# sourceMappingURL=style.css.map */

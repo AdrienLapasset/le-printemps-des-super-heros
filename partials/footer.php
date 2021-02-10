@@ -1,5 +1,10 @@
 <footer>
-  <a href="modalites.php">Modalités</a> -
-  <a href="mentions.php">Mentions légales</a> -
-  <a href="">Contacts</a>
-</footer>
+    <p class="copyright">
+      © 2020 MARVEL
+    </p>
+    <div class="liens">
+      <a href="/assets/Hasbro - Mentions légales et cookies.docx" download>Mentions légales ·</a>
+      <a href="">Contact ·</a>
+      <a href="reglement.html">Réglement</a>
+    </div>
+  </footer>
