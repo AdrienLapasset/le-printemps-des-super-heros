@@ -35,8 +35,8 @@ a:hover {
   color: black;
 }
 
-.jouez-avec {
-  background-image: url("../assets/imgs/fond-jouez-avec.jpg");
+.jouez-avec,
+.formulaire {
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -56,11 +56,28 @@ a:hover {
   min-height: calc(100vh);
 }
 
+.jouez-avec {
+  background-image: url("../assets/imgs/fond-jouez-avec.jpg");
+}
+
 .jouez-avec h1 {
   text-transform: uppercase;
   color: #adadad;
   font-size: 26px;
   margin: 100px 0 10px;
+}
+
+.formulaire {
+  background-image: url("../assets/imgs/fond-le-printemps.jpg");
+}
+
+.formulaire h1 {
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-size: 26px;
+  margin: 10px 0;
 }
 
 .c-btn {
@@ -118,5 +135,163 @@ footer .liens {
 footer .liens a {
   font-size: 8.5px;
   color: #d7d8da;
+}
+
+.formulaire form {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+}
+
+.formulaire form .form-block {
+  -webkit-box-shadow: 5px 5px 17px black;
+          box-shadow: 5px 5px 17px black;
+  background-color: #011337;
+  border-radius: 15px;
+  padding: 10px 20px 20px;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block {
+    width: 800px;
+  }
+}
+
+.formulaire form .form-block div:not(.checkbox) {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block div:not(.checkbox) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.formulaire form .form-block div:not(.checkbox) input,
+.formulaire form .form-block div:not(.checkbox) .custom-select {
+  margin: 5px 0;
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block div:not(.checkbox) input,
+  .formulaire form .form-block div:not(.checkbox) .custom-select {
+    width: 360px;
+  }
+}
+
+.formulaire form .form-block div:not(.checkbox) input.adresse,
+.formulaire form .form-block div:not(.checkbox) .custom-select.adresse {
+  width: 100%;
+}
+
+.formulaire form .form-block div:not(.checkbox) .custom-select {
+  border-radius: 0;
+  font-size: 13px;
+}
+
+.formulaire form .form-block div:not(.checkbox) input[type="file"] {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.formulaire form .form-block div:not(.checkbox) span {
+  padding: 5px;
+  position: absolute;
+  bottom: 13px;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .formulaire form .form-block div:not(.checkbox) span {
+    width: 250px;
+  }
+}
+
+.formulaire form .form-block .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulaire form .form-block .checkbox label {
+  margin-left: 7px;
+  margin-bottom: 0;
+}
+
+.formulaire form .form-block p {
+  font-size: 9px;
+}
+
+.formulaire .je-joue {
+  font-size: 28px;
+  margin: 0 auto 100px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
