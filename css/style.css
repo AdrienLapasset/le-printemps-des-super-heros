@@ -118,8 +118,8 @@ a:hover {
   padding: 0 10px;
 }
 
-.c-btn--mb {
-  margin-bottom: 100px;
+.c-btn.yellow {
+  background-color: #ffcb26;
 }
 
 .rendez-vous p {
