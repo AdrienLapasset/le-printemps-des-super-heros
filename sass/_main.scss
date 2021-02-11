@@ -1,5 +1,6 @@
 .jouez-avec,
-.formulaire {
+.formulaire,
+.gagne {
   background-size: cover;
   background-position: center;
   display: flex;
@@ -20,7 +21,8 @@
   }
 }
 
-.formulaire {
+.formulaire,
+.gagne {
   background-image: url("../assets/imgs/fond-le-printemps.jpg");
   h1 {
     text-align: center;
@@ -29,6 +31,25 @@
     color: white;
     font-size: 26px;
     margin: 10px 0;
+  }
+}
+
+.gagne {
+  & > {
+    h1 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 18px;
+    }
+    img {
+      margin: 30px 0;
+    }
+    aside {
+      font-size: 12px;
+      color: #adadad;
+    }
   }
 }
 
@@ -56,6 +77,25 @@
     text-align: center;
   }
   .icons {
+    & > img {
+      margin: 0 10px;
+    }
+  }
+}
+
+.footer-printemps {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr repeat(1, auto) 1fr;
+  grid-column-gap: 5px;
+  .logo-hasbro {
+    margin: 0 20px 0 auto;
+  }
+  .icons {
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     & > img {
       margin: 0 10px;
     }
