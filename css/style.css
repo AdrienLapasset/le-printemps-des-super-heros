@@ -37,7 +37,9 @@ a:hover {
 
 .jouez-avec,
 .formulaire,
-.gagne {
+.gagne,
+.confirmation,
+.mentions {
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -69,18 +71,28 @@ a:hover {
 }
 
 .formulaire,
-.gagne {
+.gagne,
+.confirmation {
   background-image: url("../assets/imgs/fond-le-printemps.jpg");
 }
 
 .formulaire h1,
-.gagne h1 {
+.gagne h1,
+.confirmation h1 {
   text-align: center;
   font-weight: 800;
   text-transform: uppercase;
   color: white;
   font-size: 26px;
   margin: 10px 0;
+}
+
+.confirmation {
+  background-image: url("../assets/imgs/fond-confirmation.jpg");
+}
+
+.mentions {
+  background-image: url("../assets/imgs/fond-mention.jpg");
 }
 
 .gagne > h1 {
@@ -191,13 +203,7 @@ footer .liens a {
   color: #d7d8da;
 }
 
-.formulaire form {
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 13px;
-}
-
-.formulaire form .form-block {
+.form-block {
   -webkit-box-shadow: 5px 5px 17px black;
           box-shadow: 5px 5px 17px black;
   background-color: #011337;
@@ -206,9 +212,33 @@ footer .liens a {
 }
 
 @media (min-width: 576px) {
-  .formulaire form .form-block {
+  .form-block {
     width: 800px;
   }
+}
+
+.mentions h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.mentions p {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.mentions .form-block {
+  margin-top: 60px;
+  max-height: 480px;
+  overflow-y: scroll;
+}
+
+.formulaire form {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
 }
 
 .formulaire form .form-block div:not(.checkbox) {

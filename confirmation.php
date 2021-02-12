@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body class="gagne">
+<body class="confirmation">
   <?php include 'partials/header.php'; ?>
     <img src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Merci d’avoir participé</h1>
