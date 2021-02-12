@@ -13,7 +13,7 @@
 
 <body class="confirmation">
   <?php include 'partials/header.php'; ?>
-    <img src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
+    <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Merci d’avoir participé</h1>
     <p class="mb-3">Votre dossier est en cours de validation.
       Un email va vous être envoyé prochainement.<p>

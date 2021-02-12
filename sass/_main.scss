@@ -69,7 +69,7 @@
 .c-btn {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: #9e0b0f;
   box-shadow: 3px 3px 0px 0px rgb(255, 255, 255);
   text-transform: uppercase;
@@ -89,7 +89,10 @@
 }
 
 .footer-jouez {
-  margin-bottom: 50px;
+  margin: 50px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   p {
     font-size: 18px;
     text-align: center;

@@ -12,12 +12,13 @@
 </head>
 
 <body class="jouez-avec">
-  <?php include 'partials/header.php'; ?>
-    <img class="mt-5" src="../assets/imgs/jouez-avec-les-super-heros.png" alt="">
-      <h1>Le printemps des super-héros</h1>
-    <img src="../assets/imgs/gagner-400€-sombre.png" alt="">
-    <a href="/formulaire.html" class="c-btn">Je joue</a>
-  <?php include 'partials/footer-jouez.php'; ?>
+  <div class="container d-flex flex-column align-items-center">
+    <img class="img-fluid mt-5" src="../assets/imgs/jouez-avec-les-super-heros.png" alt="">
+    <h1 class="text-center">Le printemps des super-héros</h1>
+    <img class="img-fluid" src="../assets/imgs/gagner-400€-sombre.png" alt="">
+    <a href="/formulaire.html" class="c-btn dark">Bientôt en ligne</a>
+    <?php include 'partials/footer-jouez.php'; ?>
+  </div>
 </body>
 
 </html>
