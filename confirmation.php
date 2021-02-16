@@ -21,8 +21,8 @@
     <p>
       Découvrez tous nos jouets de Super-Héros
       BEYBLADE BURST, Power Rangers©, Transformers©, Star Wars™ et Marvel© !</p>
-    <a href="/formulaire.html" class="c-btn">Découvrir</a>
-    <a href="/formulaire.html" class="c-btn yellow">revenir à l’accueil</a>
+    <a href="#" class="c-btn">Découvrir</a>
+    <a href="#" class="c-btn yellow">revenir à l’accueil</a>
     <div class="footer-jouez mt-5">
     <div class="ml-lg-5 d-flex flex-column align-items-center justify-content-center">
       <p>Rendez-vous sur nos réseaux sociaux pour suivre les super-héros !</p>

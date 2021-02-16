@@ -181,6 +181,11 @@ a:hover {
   padding: 0 10px;
 }
 
+.c-btn:hover {
+  text-decoration: none;
+  color: white;
+}
+
 .c-btn.yellow {
   background-color: #ffcb26;
 }
@@ -190,6 +195,7 @@ a:hover {
   background-color: #691815;
   -webkit-box-shadow: 3px 3px 0px 0px #808080;
           box-shadow: 3px 3px 0px 0px #808080;
+  cursor: default;
 }
 
 @media (min-width: 992px) {

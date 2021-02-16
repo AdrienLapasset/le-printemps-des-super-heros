@@ -15,7 +15,7 @@
     <img class="img-fluid mt-5" src="assets/imgs/jouez-avec-les-super-heros.png" alt="">
     <h1 class="text-center">Le printemps des super-héros</h1>
     <img class="img-fluid" src="assets/imgs/gagner-400€-sombre.png" alt="">
-    <a href="/formulaire.html" class="c-btn dark">Bientôt en ligne</a>
+    <a href="#" class="c-btn dark">Bientôt en ligne</a>
     <?php include 'partials/footer-jouez.php'; ?>
   </div>
 </body>

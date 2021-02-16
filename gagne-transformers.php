@@ -19,7 +19,7 @@
     <p>Vous avez gagné un jouet Transformers©</p>
     <img class="img-fluid" src="assets/imgs/gagne-transformers.png" alt="">
     <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
-    <a href="/formulaire.html" class="c-btn">Continuer</a>
+    <a href="postjeu.php" class="c-btn">Continuer</a>
 
   <?php include 'partials/footer-printemps.php'; ?>
 </div>

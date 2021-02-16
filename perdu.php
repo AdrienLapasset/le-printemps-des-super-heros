@@ -18,7 +18,7 @@
     <p class="mb-3 mb-lg-5">Vous avez perdu...<p>
     <p>Vous pouvez retenter votre chance et en profiter pour découvrir tous nos jouets de Super-Héros.<br>
       BEYBLADE BURST, Power Rangers©, Transformers©, Star Wars™ et Marvel© !</p>
-    <a href="/formulaire.html" class="c-btn">Découvrir</a>
+    <a href="#" class="c-btn">Découvrir</a>
   <?php include 'partials/footer-printemps.php'; ?>
 </div>
 </body>

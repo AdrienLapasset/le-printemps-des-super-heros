@@ -19,7 +19,7 @@
     <p>Vous avez gagné un jouet Power Rangers©</p>
     <img class="img-fluid" src="assets/imgs/gagne-power-rangers.png" alt="">
     <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
-    <a href="/formulaire.html" class="c-btn">Continuer</a>
+    <a href="postjeu.php" class="c-btn">Continuer</a>
 
   <?php include 'partials/footer-printemps.php'; ?>
 </div>

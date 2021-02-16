@@ -17,12 +17,12 @@
       <div class="col-lg-6 d-flex flex-column align-items-center pt-4">
         <h1 class="text-center light">Le printemps des super-héros</h1>
         <img class="img-fluid" src="assets/imgs/gagner-400€.png" alt="">
-        <a href="/formulaire.html" class="c-btn">Jouer !</a>
+        <a href="formulaire.php" class="c-btn">Jouer !</a>
       </div>
       <div class="col-lg-6 d-flex flex-column align-items-center">
         <h1 class="text-center">rejoignez les super-héros et découvrez la boutique collector&nbsp;!</h1>
         <img class="img-fluid" src="assets/imgs/rejoigner-les-super-heros.png" alt="">
-        <a href="/formulaire.html" class="c-btn dark">Bientôt en ligne</a>
+        <a href="#" class="c-btn dark">Bientôt en ligne</a>
       </div>
     </div>
     <?php include 'partials/footer-jouez.php'; ?>
