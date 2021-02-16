@@ -18,11 +18,14 @@
   h1 {
     text-transform: uppercase;
     color: #adadad;
-    font-size: 16px;
+    font-size: 13px;
     margin: 30px 0 10px;
     @include media-breakpoint-up(lg) {
-      font-size: 26px;
-      margin: 100px 0 10px;
+      font-size: 20px;
+      margin: 50px 0 10px;
+    }
+    &.light {
+      color: white;
     }
   }
 }
@@ -172,7 +175,7 @@ footer {
   background-color: #011337;
   border-radius: 15px;
   padding: 10px 20px 20px;
-  @media (min-width: 576px) {
+  @include media-breakpoint-up(lg) {
     width: 800px;
   }
 }

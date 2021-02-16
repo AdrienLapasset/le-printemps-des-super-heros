@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,11 +11,13 @@
 </head>
 
 <body class="jouez-avec">
-  <img class="img-fluid mt-5" src="../assets/imgs/jouez-avec-les-super-heros.png" alt="">
-  <h1>Le printemps des super-héros</h1>
-  <img src="../assets/imgs/gagner-400€-sombre.png" alt="">
-  <a href="/formulaire.html" class="c-btn dark">Ce jeu est terminé</a>
-  <?php include 'partials/footer-jouez.php'; ?>
+  <div class="container d-flex flex-column align-items-center">
+    <img class="img-fluid mt-5" src="../assets/imgs/jouez-avec-les-super-heros.png" alt="">
+    <h1 class="text-center light">Le printemps des super-héros</h1>
+    <img class="img-fluid" src="../assets/imgs/gagner-400€.png" alt="">
+    <a href="/formulaire.html" class="c-btn">Jouer !</a>
+    <?php include 'partials/footer-jouez.php'; ?>
+  </div>
 </body>
 
 </html>

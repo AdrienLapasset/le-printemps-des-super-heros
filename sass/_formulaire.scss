@@ -12,7 +12,7 @@
         justify-content: space-between;
         flex: 0 0 100%;
         flex-direction: column;
-        @media (min-width: 576px) {
+        @include media-breakpoint-up(lg) {
           flex: 0 0 50%;
           flex-direction: row;
         }
@@ -25,7 +25,7 @@
           border: none;
           border-bottom: 1px solid white;
           width: 100%;
-          @media (min-width: 576px) {
+          @include media-breakpoint-up(lg) {
             width: 360px;
           }
           &.adresse {
@@ -46,7 +46,7 @@
           bottom: 13px;
           border-bottom: 1px solid white;
           width: 100%;
-          @media (min-width: 576px) {
+          @include media-breakpoint-up(lg) {
             width: 250px;
           }
         }

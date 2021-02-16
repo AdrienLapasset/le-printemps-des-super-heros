@@ -12,13 +12,12 @@
 </head>
 
 <body class="gagne">
-    <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
-    <h1>Bravo !</h1>
-    <p>Vous avez gagné un jouet Avengers©</p>
-    <img src="../assets/imgs/gagne-avengers.png" alt="">
-    <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
-    <a href="/formulaire.html" class="c-btn">Continuer</a>
-
+  <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
+  <h1>Bravo !</h1>
+  <p>Vous avez gagné un jouet Avengers©</p>
+  <img src="../assets/imgs/gagne-avengers.png" alt="">
+  <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
+  <a href="/formulaire.html" class="c-btn">Continuer</a>
   <?php include 'partials/footer-printemps.php'; ?>
 </body>
 

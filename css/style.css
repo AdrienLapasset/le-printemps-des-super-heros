@@ -66,15 +66,19 @@ a:hover {
 .jouez-avec h1 {
   text-transform: uppercase;
   color: #adadad;
-  font-size: 16px;
+  font-size: 13px;
   margin: 30px 0 10px;
 }
 
 @media (min-width: 992px) {
   .jouez-avec h1 {
-    font-size: 26px;
-    margin: 100px 0 10px;
+    font-size: 20px;
+    margin: 50px 0 10px;
   }
+}
+
+.jouez-avec h1.light {
+  color: white;
 }
 
 .formulaire,
@@ -263,7 +267,7 @@ footer .liens a {
   padding: 10px 20px 20px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .form-block {
     width: 800px;
   }
@@ -311,7 +315,7 @@ footer .liens a {
           flex-direction: column;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .formulaire form .form-block div:not(.checkbox) {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -334,7 +338,7 @@ footer .liens a {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .formulaire form .form-block div:not(.checkbox) input,
   .formulaire form .form-block div:not(.checkbox) .custom-select {
     width: 360px;
@@ -364,7 +368,7 @@ footer .liens a {
   width: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .formulaire form .form-block div:not(.checkbox) span {
     width: 250px;
   }
