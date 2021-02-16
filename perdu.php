@@ -13,7 +13,7 @@
 
 <body class="gagne">
 <div class="container d-flex flex-column align-items-center">
-    <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
+    <img class="img-fluid"src="assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Dommage</h1>
     <p class="mb-3 mb-lg-5">Vous avez perdu...<p>
     <p>Vous pouvez retenter votre chance et en profiter pour découvrir tous nos jouets de Super-Héros.<br>

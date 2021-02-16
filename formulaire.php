@@ -13,7 +13,7 @@
 
 <body class="formulaire">
   <div class="container d-flex flex-column align-items-center">
-  <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
+  <img class="img-fluid"src="assets/imgs/le-printemps-des-super-heros.png" alt="">
   <form class="d-flex flex-column align-items-start" action="/resultat-gagne.html">
     <div class="form-block mb-4">
       <h1>Participer</h1>

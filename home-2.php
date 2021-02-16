@@ -12,9 +12,9 @@
 
 <body class="jouez-avec">
   <div class="container d-flex flex-column align-items-center">
-    <img class="img-fluid mt-5" src="../assets/imgs/jouez-avec-les-super-heros.png" alt="">
+    <img class="img-fluid mt-5" src="assets/imgs/jouez-avec-les-super-heros.png" alt="">
     <h1 class="text-center light">Le printemps des super-héros</h1>
-    <img class="img-fluid" src="../assets/imgs/gagner-400€.png" alt="">
+    <img class="img-fluid" src="assets/imgs/gagner-400€.png" alt="">
     <a href="/formulaire.html" class="c-btn">Jouer !</a>
     <?php include 'partials/footer-jouez.php'; ?>
   </div>
