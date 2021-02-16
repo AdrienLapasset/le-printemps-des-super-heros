@@ -12,15 +12,15 @@
 </head>
 
 <body class="gagne">
- 
-    <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
-    <h1>Bravo !</h1>
-    <p>Vous avez gagné un jouet BEYBLADE BURST</p>
-    <img src="../assets/imgs/gagne-beyblade.png" alt="">
-    <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
-    <a href="/formulaire.html" class="c-btn">Continuer</a>
-
+ <div class="container d-flex flex-column align-items-center">
+   <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
+   <h1>Bravo !</h1>
+   <p>Vous avez gagné un jouet BEYBLADE BURST</p>
+   <img class="img-fluid" src="../assets/imgs/gagne-beyblade.png" alt="">
+   <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
+   <a href="/formulaire.html" class="c-btn">Continuer</a>
   <?php include 'partials/footer-printemps.php'; ?>
+ </div>
 </body>
 
 </html>
