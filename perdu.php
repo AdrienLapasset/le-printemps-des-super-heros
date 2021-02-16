@@ -12,7 +12,7 @@
 </head>
 
 <body class="gagne">
-  <?php include 'partials/header.php'; ?>
+ 
     <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Dommage</h1>
     <p class="mb-5">Vous avez perdu...<p>

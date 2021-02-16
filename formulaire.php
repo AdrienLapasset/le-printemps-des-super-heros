@@ -12,7 +12,7 @@
 </head>
 
 <body class="formulaire">
-  <?php include 'partials/header.php'; ?>
+ 
     <img class="img-fluid"src="../assets/imgs/le-printemps-des-super-heros.png" alt="">
 
       <form class="d-flex flex-column align-items-start" action="/resultat-gagne.html">

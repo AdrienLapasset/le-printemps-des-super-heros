@@ -12,7 +12,7 @@
 </head>
 
 <body class="mentions">
-  <?php include 'partials/header.php'; ?>
+ 
     <img src="../assets/imgs/jouez-avec-les-super-heros.png" alt="">
     <section class="form-block">
       <h1>Mentions légale</h1>
