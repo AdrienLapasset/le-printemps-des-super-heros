@@ -68,7 +68,7 @@
     </div>
     <input type="submit" class="c-btn m-auto" value="Valider">
   </form>
-  <?php include 'partials/footer-jouez.php'; ?>
+  <?php include 'partials/footer-formulaire.php'; ?>
   </div>
 </body>
 

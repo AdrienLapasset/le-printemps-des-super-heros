@@ -110,6 +110,10 @@ a:hover {
   text-align: justify;
 }
 
+.gagne {
+  background-image: url("../assets/imgs/fond-gagne.jpg");
+}
+
 .gagne h1 {
   font-size: 30px;
   font-weight: 600;
@@ -244,7 +248,6 @@ a:hover {
   -ms-grid-columns: 1fr (auto)[1] 1fr;
       grid-template-columns: 1fr repeat(1, auto) 1fr;
   grid-column-gap: 5px;
-  padding-bottom: 50px;
   margin-top: 100px;
 }
 
