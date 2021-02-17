@@ -7,6 +7,9 @@
     <img src="assets/imgs/logo-spiderman.png" alt="">
     <img src="assets/imgs/logo-avengers.png" alt="">
   </div>
+  <img class="img-fluid my-4 d-lg-none mx-auto d-block" src="assets/imgs/copyrights.png" alt="">
   <img class="logo-hasbro" src="assets/imgs/logo-hasbro.png" alt="">
-  </div>
+</div>
+<img class="img-fluid mt-4 d-none d-lg-block" src="assets/imgs/copyrights.png" alt="">
+<img class="img-bottom d-lg-none" src="assets/imgs/dark-vador.png" alt="">
 <?php include 'partials/footer.php'; ?>

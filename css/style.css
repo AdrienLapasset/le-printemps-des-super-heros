@@ -21,6 +21,7 @@ body {
   font-weight: 500;
   color: white;
   line-height: 1.5;
+  position: relative;
 }
 
 li {
@@ -262,11 +263,13 @@ a:hover {
 .footer-printemps .logo-hasbro {
   display: block;
   margin: auto;
+  padding-bottom: 400px;
   width: 100px;
 }
 
 @media (min-width: 992px) {
   .footer-printemps .logo-hasbro {
+    padding-bottom: 0;
     width: unset;
     margin: 0 0 0 auto;
   }
@@ -356,6 +359,14 @@ footer .liens a {
   margin-top: 60px;
   max-height: 480px;
   overflow-y: scroll;
+}
+
+.img-bottom {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 .formulaire form {
