@@ -111,45 +111,38 @@ a:hover {
   text-align: justify;
 }
 
-.gagne,
-.mentions {
+.gagne {
   background-image: url("../assets/imgs/fond-gagne.jpg");
 }
 
-.gagne h1,
-.mentions h1 {
+.gagne h1 {
   font-size: 30px;
   font-weight: 600;
 }
 
 @media (min-width: 992px) {
-  .gagne h1,
-  .mentions h1 {
+  .gagne h1 {
     font-size: 40px;
   }
 }
 
-.gagne p,
-.mentions p {
+.gagne p {
   font-size: 12px;
   text-align: center;
   max-width: 600px;
 }
 
 @media (min-width: 992px) {
-  .gagne p,
-  .mentions p {
+  .gagne p {
     font-size: 18px;
   }
 }
 
-.gagne img,
-.mentions img {
+.gagne img {
   margin: 30px 0;
 }
 
-.gagne aside,
-.mentions aside {
+.gagne aside {
   font-size: 12px;
   color: #adadad;
   text-align: center;
@@ -183,8 +176,8 @@ a:hover {
   font-weight: 700;
   margin-top: 20px;
   background-color: #9e0b0f;
-  -webkit-box-shadow: 3px 3px 0px 0px white;
-          box-shadow: 3px 3px 0px 0px white;
+  -webkit-box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.5);
+          box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   border: none;
   font-size: 26px;
@@ -205,8 +198,6 @@ a:hover {
 .c-btn.dark {
   color: #808080;
   background-color: #691815;
-  -webkit-box-shadow: 3px 3px 0px 0px #808080;
-          box-shadow: 3px 3px 0px 0px #808080;
   cursor: default;
 }
 
@@ -382,12 +373,6 @@ footer .liens a {
   left: 0;
   max-width: 100%;
   height: auto;
-}
-
-@media (max-width: 1199.98px) {
-  .formulaire {
-    padding-bottom: 400px;
-  }
 }
 
 .formulaire form {

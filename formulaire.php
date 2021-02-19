@@ -68,7 +68,8 @@
     </div>
     <input type="submit" class="c-btn m-auto" value="Valider">
   </form>
-  <?php include 'partials/footer-formulaire.php'; ?>
+  <?php include 'partials/footer-printemps.php'; ?>
+  <img class="img-bottom d-lg-none" src="assets/imgs/bas-transformers.png" alt="">
   </div>
 </body>
 
