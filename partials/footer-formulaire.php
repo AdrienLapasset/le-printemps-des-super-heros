@@ -11,4 +11,5 @@
       </div>
     </div>
   </div>
+<img class="img-bottom d-lg-none" src="assets/imgs/bas-transformers.png" alt="">
 <?php include 'partials/footer.php'; ?>

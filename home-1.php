@@ -20,7 +20,7 @@
         <a href="formulaire.php" class="c-btn">Jouer !</a>
       </div>
       <div class="col-lg-6 d-flex flex-column align-items-center">
-        <h1 class="text-center">rejoignez les super-héros et découvrez la boutique collector&nbsp;!</h1>
+        <h1 class="text-center">rejoignez les super-héros<br> et découvrez la boutique collector&nbsp;!</h1>
         <img class="img-fluid" src="assets/imgs/rejoigner-les-super-heros.png" alt="">
         <a href="#" class="c-btn dark">Bientôt en ligne</a>
       </div>

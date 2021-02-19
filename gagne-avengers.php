@@ -20,6 +20,7 @@
   <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
   <a href="postjeu.php" class="c-btn">Continuer</a>
   <?php include 'partials/footer-printemps.php'; ?>
+  <img class="img-bottom d-lg-none" src="assets/imgs/dark-vador.png" alt="">
 </div>
 </body>
 

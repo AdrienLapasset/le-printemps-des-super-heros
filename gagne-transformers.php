@@ -20,6 +20,7 @@
     <img class="img-fluid" src="assets/imgs/gagne-transformers.png" alt="">
     <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
     <a href="postjeu.php" class="c-btn">Continuer</a>
+    <img class="img-bottom d-lg-none" src="assets/imgs/dark-vador.png" alt="">
 
   <?php include 'partials/footer-printemps.php'; ?>
 </div>

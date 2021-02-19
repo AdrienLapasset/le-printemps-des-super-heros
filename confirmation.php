@@ -16,25 +16,27 @@
 
     <img class="img-fluid"src="assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Merci d’avoir participé</h1>
-    <p class="mb-3">Votre dossier est en cours de validation.
+    <p class="mb-3">Votre dossier est en cours de validation.<br class="d-lg-none">
       Un email va vous être envoyé prochainement.<p>
     <p>
-      Découvrez tous nos jouets de Super-Héros
+      Découvrez tous nos jouets de Super-Héros<br class="d-lg-none">
       BEYBLADE BURST, Power Rangers©, Transformers©, Star Wars™ et Marvel© !</p>
     <a href="#" class="c-btn">Découvrir</a>
     <a href="#" class="c-btn yellow">revenir à l’accueil</a>
     <div class="footer-jouez mt-5">
-    <div class="ml-lg-5 d-flex flex-column align-items-center justify-content-center">
-      <p>Rendez-vous sur nos réseaux sociaux pour suivre les super-héros !</p>
-        <div class="d-flex mt-4 icons">
-          <img src="assets/imgs/icon-twitter.png" alt="">
-          <img src="assets/imgs/icon-insta.png" alt="">
-          <img src="assets/imgs/icon-facebook.png" alt="">
-          <img src="assets/imgs/icon-youtube.png" alt="">
+      <div class="ml-lg-5 d-flex flex-column align-items-center justify-content-center">
+        <p>Rendez-vous sur nos réseaux sociaux<br class="d-lg-none"> pour suivre les super-héros !</p>
+          <div class="d-flex mt-4 icons">
+            <img src="assets/imgs/icon-twitter.png" alt="">
+            <img src="assets/imgs/icon-insta.png" alt="">
+            <img src="assets/imgs/icon-facebook.png" alt="">
+            <img src="assets/imgs/icon-youtube.png" alt="">
+          </div>
         </div>
-      </div>
-  <?php include 'partials/footer-printemps.php'; ?>
-</div>
+      <?php include 'partials/footer-printemps.php'; ?>
+      <img class="img-bottom d-lg-none" src="assets/imgs/bas-merci.png" alt="">
+    </div>
+  </div>
 </body>
 
 </html>

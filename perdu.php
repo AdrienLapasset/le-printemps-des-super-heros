@@ -19,6 +19,8 @@
     <p>Vous pouvez retenter votre chance et en profiter pour découvrir tous nos jouets de Super-Héros.<br>
       BEYBLADE BURST, Power Rangers©, Transformers©, Star Wars™ et Marvel© !</p>
     <a href="#" class="c-btn">Découvrir</a>
+    <img class="img-bottom d-lg-none" src="assets/imgs/dark-vador.png" alt="">
+
   <?php include 'partials/footer-printemps.php'; ?>
 </div>
 </body>
