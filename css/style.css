@@ -36,8 +36,22 @@ a:hover {
   color: black;
 }
 
+@media (min-width: 992px) {
+  .container {
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 .jouez-avec,
-.formulaire,
 .gagne,
 .confirmation,
 .mentions {
@@ -82,13 +96,11 @@ a:hover {
   color: white;
 }
 
-.formulaire,
 .gagne,
 .confirmation {
   background-image: url("../assets/imgs/fond-le-printemps.jpg");
 }
 
-.formulaire h1,
 .gagne h1,
 .confirmation h1 {
   text-align: center;
@@ -101,14 +113,6 @@ a:hover {
 
 .confirmation {
   background-image: url("../assets/imgs/fond-confirmation.jpg");
-}
-
-.mentions {
-  background-image: url("../assets/imgs/fond-mention.jpg");
-}
-
-.mentions p {
-  text-align: justify;
 }
 
 .gagne {
@@ -349,6 +353,10 @@ footer .liens a {
   }
 }
 
+.mentions {
+  background-image: url("../assets/imgs/fond-mention.jpg");
+}
+
 .mentions h1 {
   text-transform: uppercase;
   font-size: 16px;
@@ -357,14 +365,17 @@ footer .liens a {
 }
 
 .mentions p {
+  text-align: justify;
   font-size: 11px;
   margin-bottom: 10px;
 }
 
 .mentions .form-block {
   margin-top: 60px;
-  max-height: 480px;
   overflow-y: scroll;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 480px;
+          flex: 0 0 480px;
 }
 
 .img-bottom {
@@ -373,6 +384,12 @@ footer .liens a {
   left: 0;
   max-width: 100%;
   height: auto;
+}
+
+.formulaire {
+  background-image: url("../assets/imgs/fond-le-printemps.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .formulaire form {

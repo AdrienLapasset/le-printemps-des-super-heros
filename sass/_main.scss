@@ -1,5 +1,4 @@
 .jouez-avec,
-.formulaire,
 .gagne,
 .confirmation,
 .mentions {
@@ -30,7 +29,6 @@
   }
 }
 
-.formulaire,
 .gagne,
 .confirmation {
   background-image: url("../assets/imgs/fond-le-printemps.jpg");
@@ -46,13 +44,6 @@
 
 .confirmation {
   background-image: url("../assets/imgs/fond-confirmation.jpg");
-}
-
-.mentions {
-  background-image: url("../assets/imgs/fond-mention.jpg");
-  p {
-    text-align: justify;
-  }
 }
 
 .gagne {
@@ -232,6 +223,7 @@ footer {
 }
 
 .mentions {
+  background-image: url("../assets/imgs/fond-mention.jpg");
   h1 {
     text-transform: uppercase;
     font-size: 16px;
@@ -239,13 +231,14 @@ footer {
     margin: 10px 0;
   }
   p {
+    text-align: justify;
     font-size: 11px;
     margin-bottom: 10px;
   }
   .form-block {
     margin-top: 60px;
-    max-height: 480px;
     overflow-y: scroll;
+    flex: 0 0 480px;
   }
 }
 
