@@ -156,6 +156,29 @@ sup {
   text-align: center;
 }
 
+.gagne__imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gagne__imgs img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .gagne__imgs img {
+    height: 300px;
+  }
+}
+
 .confirmation h1 {
   font-size: 30px;
   font-weight: 600;

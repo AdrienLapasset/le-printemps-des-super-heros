@@ -71,6 +71,18 @@
     color: #adadad;
     text-align: center;
   }
+  &__imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 100%;
+      height: auto;
+      @include media-breakpoint-up(lg) {
+        height: 300px;
+      }
+    }
+  }
 }
 
 .confirmation {

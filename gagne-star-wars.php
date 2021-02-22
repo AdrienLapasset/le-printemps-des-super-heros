@@ -17,7 +17,14 @@
     <img class="img-fluid"src="assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Bravo !</h1>
     <p>Vous avez gagné un jouet Star Wars<sup>™</sup></p>
-    <img class="img-fluid" src="assets/imgs/gagne-star-wars.png" alt="">
+    <div class="gagne__imgs">
+      <div>
+        <img class="mr-3" src="assets/imgs/gagne-star-wars-enfant.png" alt="">
+      </div>
+      <div>
+        <img src="assets/imgs/gagne-star-wars-jouet.png" alt="">
+      </div>
+    </div>
     <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
     <a href="postjeu.php" class="c-btn">Continuer</a>
     <img class="img-bottom d-lg-none" src="assets/imgs/dark-vador.png" alt="">
