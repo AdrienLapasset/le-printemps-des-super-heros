@@ -17,7 +17,7 @@
     <h1>Dommage</h1>
     <p class="mb-3 mb-lg-5">Vous avez perdu...<p>
     <p>Vous pouvez retenter votre chance et en profiter pour découvrir tous nos jouets de Super-Héros.<br>
-      BEYBLADE BURST, Power Rangers©, Transformers©, Star Wars™ et Marvel© !</p>
+    BEYBLADE BURST, Power Rangers<sup>©</sup>, Transformers<sup>©</sup>, Star Wars<sup>™</sup> et Marvel<sup>©</sup> !</p>
     <a href="#" class="c-btn">Découvrir</a>
     <img class="img-bottom d-lg-none" src="assets/imgs/dark-vador.png" alt="">
 

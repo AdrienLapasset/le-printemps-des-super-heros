@@ -51,6 +51,10 @@ a:hover {
   }
 }
 
+sup {
+  font-size: 10px;
+}
+
 .jouez-avec,
 .gagne,
 .confirmation,

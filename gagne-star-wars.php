@@ -16,7 +16,7 @@
 
     <img class="img-fluid"src="assets/imgs/le-printemps-des-super-heros.png" alt="">
     <h1>Bravo !</h1>
-    <p>Vous avez gagné un jouet Star Wars©</p>
+    <p>Vous avez gagné un jouet Star Wars<sup>™</sup></p>
     <img class="img-fluid" src="assets/imgs/gagne-star-wars.png" alt="">
     <aside>*Plusieurs modèles disponibles - Visuels non contractuels</aside>
     <a href="postjeu.php" class="c-btn">Continuer</a>
