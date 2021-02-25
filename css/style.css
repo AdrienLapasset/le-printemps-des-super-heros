@@ -51,6 +51,12 @@ sup {
   font-size: 10px;
 }
 
+.row,
+form {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 .jouez-avec,
 .gagne,
 .confirmation,
@@ -162,6 +168,8 @@ sup {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .gagne__imgs img {
@@ -237,6 +245,8 @@ sup {
 .footer-jouez {
   margin-top: 50px;
   margin-bottom: 40px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -330,6 +340,7 @@ sup {
 footer {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
   z-index: 1;
 }

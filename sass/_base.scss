@@ -46,3 +46,8 @@ a {
 sup {
   font-size: 10px;
 }
+
+.row,
+form {
+  flex-shrink: 0;
+}
