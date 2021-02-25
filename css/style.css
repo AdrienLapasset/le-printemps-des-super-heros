@@ -24,10 +24,6 @@ body {
   position: relative;
 }
 
-li {
-  list-style-type: none;
-}
-
 a {
   color: black;
 }
@@ -391,6 +387,12 @@ footer .liens a {
   margin: 10px 0;
 }
 
+.mentions h2 {
+  font-size: 11px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
 .mentions p {
   text-align: justify;
   font-size: 11px;
@@ -403,6 +405,16 @@ footer .liens a {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 480px;
           flex: 0 0 480px;
+}
+
+.mentions ol,
+.mentions ul {
+  padding-left: 30px;
+  font-size: 11px;
+}
+
+.mentions a {
+  color: white;
 }
 
 .img-bottom {
