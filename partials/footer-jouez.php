@@ -13,4 +13,5 @@
       </div>
     </div>
   </div>
+  <img class="img-fluid mt-5 d-none d-lg-block" src="assets/imgs/copyrights.png" alt="">
 <?php include 'partials/footer.php'; ?>
