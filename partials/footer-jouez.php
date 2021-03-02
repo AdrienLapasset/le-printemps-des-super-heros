@@ -6,12 +6,20 @@
     <div class="ml-lg-5 d-flex flex-column align-items-center justify-content-center">
       <p>Rendez-vous sur nos réseaux sociaux<br> pour suivre les super-héros !</p>
       <div class="d-flex mt-4 icons">
-        <img src="assets/imgs/icon-twitter.png" alt="">
-        <img src="assets/imgs/icon-insta.png" alt="">
-        <img src="assets/imgs/icon-facebook.png" alt="">
-        <img src="assets/imgs/icon-youtube.png" alt="">
+        <a href="https://twitter.com/hasbro">
+          <img src="assets/imgs/icon-twitter.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/hasbro/?hl=fr">
+          <img src="assets/imgs/icon-insta.png" alt="">
+        </a>
+        <a href="https://www.facebook.com/Hasbro">
+          <img src="assets/imgs/icon-facebook.png" alt="">
+        </a>
+        <a href="https://www.youtube.com/channel/UC-r13SLLdZtZNmuC2bMnlmw">
+          <img src="assets/imgs/icon-youtube.png" alt="">
+        </a>
       </div>
     </div>
   </div>
-  <img class="img-fluid mt-5 d-none d-lg-block" src="assets/imgs/copyrights.png" alt="">
+  <img class="img-fluid mt-5" src="assets/imgs/copyrights.png" alt="">
 <?php include 'partials/footer.php'; ?>

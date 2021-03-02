@@ -21,16 +21,24 @@
     <p>
       Découvrez tous nos jouets de Super-Héros<br class="d-lg-none">
       BEYBLADE BURST, Power Rangers<sup>©</sup>, Transformers<sup>©</sup>, Star Wars<sup>™</sup> et Marvel<sup>©</sup> !</p>
-    <a href="#" class="c-btn">Découvrir</a>
+    <a href="https://products.hasbro.com/fr-fr" class="c-btn">Découvrir</a>
     <a href="#" class="c-btn yellow">revenir à l’accueil</a>
     <div class="footer-jouez mt-5">
       <div class="ml-lg-5 d-flex flex-column align-items-center justify-content-center">
         <p>Rendez-vous sur nos réseaux sociaux<br class="d-lg-none"> pour suivre les super-héros !</p>
           <div class="d-flex mt-4 icons">
-            <img src="assets/imgs/icon-twitter.png" alt="">
-            <img src="assets/imgs/icon-insta.png" alt="">
-            <img src="assets/imgs/icon-facebook.png" alt="">
-            <img src="assets/imgs/icon-youtube.png" alt="">
+            <a href="https://twitter.com/hasbro">
+              <img src="assets/imgs/icon-twitter.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/hasbro/?hl=fr">
+              <img src="assets/imgs/icon-insta.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/Hasbro">
+              <img src="assets/imgs/icon-facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/channel/UC-r13SLLdZtZNmuC2bMnlmw">
+              <img src="assets/imgs/icon-youtube.png" alt="">
+            </a>
           </div>
         </div>
       <?php include 'partials/footer-printemps.php'; ?>

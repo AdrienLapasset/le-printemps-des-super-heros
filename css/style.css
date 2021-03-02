@@ -100,7 +100,7 @@ form {
 
 .jouez-avec h1.light {
   color: white;
-  margin-top: 62px;
+  margin-top: 74px;
 }
 
 .gagne,
@@ -277,7 +277,7 @@ form {
   }
 }
 
-.footer-jouez .icons > img {
+.footer-jouez .icons > a {
   margin: 0 10px;
 }
 
